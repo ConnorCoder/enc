@@ -1,0 +1,24 @@
+* {
+  margin: auto;
+  font-family: Arial;
+  text-align: center;
+}
+body {
+  background: #111;
+}
+input {
+  background: #222;
+  border: solid 1px white;
+  color: white;
+}
+button {
+  background: #222;
+  border: solid 1px white;
+  color: white;
+}
+#options {
+  color: white;
+}
+#options input {
+  margin-left: 100px;
+}
