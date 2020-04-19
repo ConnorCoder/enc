@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>enc</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <input id="str" placeholder="String"/>
@@ -12,7 +13,21 @@
     <input id="str2" placeholder="String"/>
     <input id="key2" placeholder="Key"/>
     <button onclick="decrypt()">Decrypt</button>
-    <input id="opD" placeholder="Output" readonly/>
+    <input id="opD" placeholder="Output" readonly/><br><br><hr><br><br>
+
+    <div id="options">
+      <input type="checkbox">  Key Flipping</input>
+      <input type="checkbox">  Key Doubler</input>
+      <input type="checkbox">  Key Tripler</input><br>
+      <input type="checkbox">  Key Adder</input>
+      <input type="checkbox">  Key Subtracter</input>
+      <input type="checkbox">  String Adder</input><br>
+      <input type="checkbox">  String Subtracter</input>
+      <input type="checkbox">  String Doubler</input>
+      <input type="checkbox">  String Tripler</input><br>
+      <input type="checkbox">  String Flipper</input>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
